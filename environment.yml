@@ -1,0 +1,16 @@
+# Conda-окружение для HR-агента «Акватория».
+#
+# Сам движок (domain/, engine/, extractors/, validation/, report.py,
+# screen.py, extract.py, poc.py, eval_extraction.py) использует ТОЛЬКО
+# стандартную библиотеку Python — проверено grep'ом по всем import/from во
+# всём репозитории. Единственная реальная внешняя зависимость — pytest,
+# и только для tests/. Никаких anthropic/google-generativeai/groq SDK: все
+# четыре провайдера (Ollama/Anthropic/Groq/Gemini) реализованы через
+# urllib.request (и системный curl для Groq — см. extractors/providers.py,
+# докстринг про Cloudflare) напрямую по HTTP, без клиентских библиотек.
+name: screening-agent
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - pytest>=7.0

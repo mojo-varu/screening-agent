@@ -1,0 +1,21 @@
+# Секреты — реальные API-ключи, никогда не коммитятся
+.env
+
+# Скомпилированный байт-код Python — регенерируется автоматически
+__pycache__/
+*.pyc
+
+# Результаты прогонов — регенерируются через report.py / screen.py,
+# не являются исходным кодом решения
+screening_results/
+report.md
+evidence_full_matrix.json
+llm_extracted*.json
+extract_cache*.json
+
+# Устарел (Phase-1 архитектура, до evidence-grounding) — заменён
+# TECH_ARCHITECTURE.en.md / TECH_ARCHITECTURE.ru.md
+TECH_SPEC.md
+
+# Исходный текст задания — не часть решения, не распространяем дальше
+02_вакансии_и_резюме.md

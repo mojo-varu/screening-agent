@@ -1,0 +1,64 @@
+{
+  "V1": {
+    "title": "Бизнес-аналитик",
+    "salary_range": [220000, 280000],
+    "must_have": [
+      {"id": "experience", "text": "3+ года в роли BA или системного аналитика"},
+      {"id": "requirements_authorship", "text": "Постановка требований и пользовательских сценариев, а не только «рисовал схемы по готовому»"},
+      {"id": "integrations", "text": "Опыт работы с интеграциями (CRM, билетные, PMS — любой стек)"},
+      {"id": "russian_quality", "text": "Русский язык: технические тексты без кальки"}
+    ],
+    "nice_to_have": [
+      {"id": "domain", "text": "Домен: hospitality / недвижимость / ритейл"},
+      {"id": "bpmn", "text": "BPMN"},
+      {"id": "usm", "text": "User Story Mapping"},
+      {"id": "english_b2", "text": "Английский B2"}
+    ],
+    "stop_factors": [
+      {"id": "junior_only", "text": "Только junior / стажировка"},
+      {"id": "finance_only", "text": "Только финансовый сектор без цифровых продуктов"},
+      {"id": "remote_other_tz", "text": "Готовность только к 100% удалёнке из другого часового пояса без гибрида"}
+    ]
+  },
+  "V2": {
+    "title": "Fullstack-разработчик",
+    "salary_range": [250000, 320000],
+    "must_have": [
+      {"id": "experience", "text": "3+ года коммерческой разработки"},
+      {"id": "stack", "text": "TypeScript или Python на боевых задачах (достаточно одного, второй — плюс)"},
+      {"id": "frontend_quality", "text": "SSR / мета-теги / формы / адаптив"},
+      {"id": "git_deploy", "text": "Git, ревью, самостоятельный деплой простого стенда"}
+    ],
+    "nice_to_have": [
+      {"id": "framework", "text": "Next.js / Nuxt / Remix"},
+      {"id": "external_api", "text": "Интеграции с внешними API"},
+      {"id": "ux_taste", "text": "Базовый UX-вкус"},
+      {"id": "llm_agents", "text": "Опыт с LLM-агентами"}
+    ],
+    "stop_factors": [
+      {"id": "markup_only", "text": "Только вёрстка без логики"},
+      {"id": "java_enterprise_only", "text": "Только Java enterprise без веба"},
+      {"id": "no_releases", "text": "Нет ни одного публичного или описываемого релиза"}
+    ]
+  },
+  "V3": {
+    "title": "UX/UI-дизайнер",
+    "salary_range": [200000, 270000],
+    "must_have": [
+      {"id": "experience", "text": "3+ года UX/UI"},
+      {"id": "relevant_cases", "text": "Кейсы промо-сайтов или hospitality / luxury / девелопмент"},
+      {"id": "tools", "text": "Figma, дизайн-система, адаптив"},
+      {"id": "explainability", "text": "Умение объяснить решения, а не только отдать макет"}
+    ],
+    "nice_to_have": [
+      {"id": "animation", "text": "Анимация"},
+      {"id": "3d_webgl", "text": "3D/WebGL как постановка задачи разработчику"},
+      {"id": "research", "text": "Исследование интервью"}
+    ],
+    "stop_factors": [
+      {"id": "graphic_design_only", "text": "Только графический дизайн / баннеры"},
+      {"id": "mobile_only", "text": "Только мобильные приложения без веба"},
+      {"id": "ai_gen_only_risk", "text": "Портфолио исключительно нейрогенерации без проектной рамки"}
+    ]
+  }
+}

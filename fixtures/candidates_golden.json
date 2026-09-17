@@ -1,0 +1,451 @@
+{
+  "R01": {
+    "name": "Мария Левина",
+    "age": 31,
+    "city": "Москва",
+    "primary_role": "V1",
+    "years_total": 5,
+    "years_total_evidence": "Бизнес-аналитик, 5 лет.",
+    "requirements_authorship": true,
+    "requirements_authorship_evidence": "Пишет ТЗ и пользовательские сценарии, ведёт заказчика.",
+    "integrations_experience": true,
+    "integrations_experience_evidence": "Последние 2,5 года — цифровые сервисы сети отелей: сайт, виджет бронирования, брифы для интеграции с PMS.",
+    "russian_native": true,
+    "russian_native_evidence": "Русский — рабочий",
+    "domain_match": true,
+    "domain_match_evidence": "Цифровые сервисы сети отелей",
+    "bpmn": true,
+    "bpmn_evidence": "BPMN, Confluence, User Story.",
+    "usm": true,
+    "usm_evidence": "User Story.",
+    "english": "B2",
+    "english_evidence": "английский B2",
+    "work_format": "hybrid",
+    "work_format_evidence": "гибрид, Москва",
+    "salary_expectation": 260000,
+    "salary_expectation_evidence": "Ожидания: 260 тыс.",
+    "stop_notes": [],
+    "weaknesses": [],
+    "criteria_evidence_labels": {
+      "experience": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "requirements_authorship": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "integrations": {
+        "verdict": "insufficient",
+        "reason": "цитата про 'брифы для интеграции с PMS' — это участие в постановке, не hands-on опыт интеграции, которого требует критерий"
+      },
+      "russian_quality": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "domain": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "bpmn": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "usm": {
+        "verdict": "insufficient",
+        "reason": "цитата 'User Story.' — это написание user story, а не техника User Story Mapping, которая требуется в критерии"
+      },
+      "english_b2": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      }
+    }
+  },
+  "R02": {
+    "name": "Игорь Сафронов",
+    "age": 27,
+    "city": "Санкт-Петербург",
+    "primary_role": "V1",
+    "years_total": 2,
+    "years_total_evidence": "Системный аналитик, 2 года (после аналитика 1С).",
+    "requirements_authorship": null,
+    "russian_native": null,
+    "domain_match": false,
+    "domain_match_evidence": "В основном банковские внутренние реестры, SQL, постановка для Java-бэка.",
+    "english": "A2",
+    "english_evidence": "Английский A2.",
+    "work_format": "remote_only",
+    "work_format_evidence": "Только удалёнка, переезд в Москву не рассматривает.",
+    "salary_expectation": 210000,
+    "salary_expectation_evidence": "Ожидания: 210 тыс.",
+    "stop_notes": [
+      "finance_only"
+    ],
+    "stop_notes_evidence": "В основном банковские внутренние реестры, SQL, постановка для Java-бэка. Веб-продуктов не было.",
+    "weaknesses": [
+      "веб-продуктов не было",
+      "только удалёнка, переезд в Москву не рассматривает"
+    ],
+    "criteria_evidence_labels": {
+      "experience": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "domain": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "english_b2": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      }
+    }
+  },
+  "R03": {
+    "name": "Анна Ким",
+    "age": 34,
+    "city": "Москва",
+    "primary_role": "V1",
+    "years_total": 7,
+    "years_relevant": 3,
+    "years_total_evidence": "BA, 7 лет, из них 4 — маркетплейс, 3 — жилая недвижимость",
+    "requirements_authorship": true,
+    "requirements_authorship_evidence": "Сильная в формулировке требований к лендингам и кабинету брокера.",
+    "integrations_experience": "partial",
+    "integrations_experience_evidence": "Слабая в интеграциях «тяжёлых» внешних систем: «обычно отдавали архитектору».",
+    "russian_native": null,
+    "domain_match": true,
+    "domain_match_evidence": "3 — жилая недвижимость (сайт ЖК, квизы, CRM)",
+    "work_format": "hybrid",
+    "work_format_evidence": "Гибрид ок.",
+    "salary_expectation": 300000,
+    "salary_expectation_evidence": "Ожидания: 300 тыс. (выше вилки).",
+    "stop_notes": [],
+    "weaknesses": [
+      "слабая в интеграциях «тяжёлых» внешних систем — обычно отдавали архитектору"
+    ],
+    "criteria_evidence_labels": {
+      "experience": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "requirements_authorship": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "integrations": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "domain": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      }
+    }
+  },
+  "R04": {
+    "name": "Дмитрий Орлов",
+    "age": 29,
+    "city": "Москва",
+    "primary_role": "V2",
+    "years_total": 6,
+    "years_total_evidence": "Fullstack, 6 лет.",
+    "stack_ts": true,
+    "stack_ts_evidence": "TypeScript, Next.js, Node, PostgreSQL.",
+    "stack_python": "partial",
+    "stack_python_evidence": "Python на уровне скриптов.",
+    "ssr": true,
+    "ssr_evidence": "Делал SSR-маркетинговые сайты для девелоперов",
+    "meta_forms_responsive": true,
+    "meta_forms_responsive_evidence": "сам закрывает адаптив",
+    "deploy": true,
+    "deploy_evidence": "Деплой на Vercel / свой VPS.",
+    "framework_next": true,
+    "framework_next_evidence": "Next.js",
+    "ux_taste": true,
+    "ux_taste_evidence": "Есть вкус к вёрстке, сам закрывает адаптив.",
+    "work_format": "hybrid",
+    "work_format_evidence": "гибрид 2 дня",
+    "salary_expectation": 300000,
+    "salary_expectation_evidence": "Ожидания: 300 тыс.",
+    "stop_notes": [],
+    "weaknesses": [],
+    "criteria_evidence_labels": {
+      "experience": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "stack": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "frontend_quality": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "framework": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "ux_taste": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      }
+    }
+  },
+  "R05": {
+    "name": "Елена Жукова",
+    "age": 26,
+    "city": "Казань",
+    "primary_role": "V2",
+    "years_total": 3,
+    "years_total_evidence": "Frontend, 3 года.",
+    "stack_python": false,
+    "stack_python_evidence": "React, CSS, немного Node. Сильная визуальная вёрстка, слабый бэкенд.",
+    "ssr": false,
+    "ssr_evidence": "SSR не настраивала",
+    "meta_forms_responsive": "partial",
+    "meta_forms_responsive_evidence": "формы отправляла в Formspree",
+    "work_format": "remote_only",
+    "work_format_evidence": "Удалёнка, в Москву на 2 дня в неделю готова летать за счёт компании.",
+    "salary_expectation": 230000,
+    "salary_expectation_evidence": "Ожидания: 230 тыс.",
+    "stop_notes": [],
+    "weaknesses": [
+      "слабый бэкенд",
+      "SSR не настраивала",
+      "формы отправляла в Formspree (не сама реализовывала)"
+    ],
+    "criteria_evidence_labels": {
+      "experience": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "stack": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "frontend_quality": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      }
+    }
+  },
+  "R06": {
+    "name": "Павел Чернов",
+    "age": 38,
+    "city": "Москва",
+    "primary_role": "V2",
+    "years_total": 12,
+    "years_total_evidence": "Java / Spring, 12 лет, корпоративные кабинеты и ESB.",
+    "stack_ts": false,
+    "stack_python": null,
+    "stack_ts_evidence": "Веб-фронт не делал с 2016.",
+    "ssr": false,
+    "meta_forms_responsive": false,
+    "ssr_evidence": "Веб-фронт не делал с 2016.",
+    "meta_forms_responsive_evidence": "Веб-фронт не делал с 2016.",
+    "git": true,
+    "git_evidence": "Git есть",
+    "work_format": "office_only_5x2",
+    "work_format_evidence": "только офис, 5/2.",
+    "salary_expectation": 350000,
+    "salary_expectation_evidence": "Ожидания: 350 тыс.",
+    "stop_notes": [
+      "java_enterprise_only",
+      "no_releases"
+    ],
+    "weaknesses": [
+      "публичных релизов нет (NDA)",
+      "веб-фронт не делал с 2016",
+      "хочет «перейти во fullstack»"
+    ],
+    "criteria_evidence_labels": {
+      "experience": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "stack": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "frontend_quality": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      }
+    }
+  },
+  "R07": {
+    "name": "Софья Назарова",
+    "age": 30,
+    "city": "Москва",
+    "primary_role": "V3",
+    "years_total": 6,
+    "years_total_evidence": "UX/UI, 6 лет.",
+    "relevant_cases": true,
+    "relevant_cases_evidence": "4 промо-сайта девелоперов, один концепт spa-курорта, дизайн-система для сети ресторанов.",
+    "figma": true,
+    "figma_evidence": "Figma, прототипы, адаптив",
+    "design_system": true,
+    "design_system_evidence": "дизайн-система для сети ресторанов",
+    "responsive": true,
+    "responsive_evidence": "адаптив",
+    "animation": "partial",
+    "animation_evidence": "редкие motion-спеки",
+    "research": "partial",
+    "research_evidence": "Исследования делает точечно.",
+    "ai_gen_only": false,
+    "ai_gen_only_evidence": "Нейросети использует как референс, не как финальный макет.",
+    "work_format": "hybrid",
+    "work_format_evidence": "гибрид",
+    "salary_expectation": 250000,
+    "salary_expectation_evidence": "Ожидания: 250 тыс.",
+    "stop_notes": [],
+    "weaknesses": [],
+    "criteria_evidence_labels": {
+      "experience": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "relevant_cases": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "tools": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "animation": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "research": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      }
+    }
+  },
+  "R08": {
+    "name": "Артём Белов",
+    "age": 24,
+    "city": "Москва",
+    "primary_role": "V3",
+    "years_total": 1.5,
+    "years_total_evidence": "UX/UI, 1,5 года после курсов.",
+    "relevant_cases": false,
+    "relevant_cases_evidence": "Много Dribbble, два реальных лендинга для знакомых.",
+    "figma": null,
+    "design_system": null,
+    "responsive": null,
+    "explainability": false,
+    "explainability_evidence": "слабая аргументация сценариев",
+    "ai_gen_only": true,
+    "ai_gen_only_evidence": "Генерация в Midjourney — основной инструмент.",
+    "work_format": "office_only",
+    "work_format_evidence": "готов к офису",
+    "salary_expectation": 180000,
+    "salary_expectation_evidence": "Ожидания: 180 тыс.",
+    "stop_notes": [
+      "ai_gen_only_risk"
+    ],
+    "weaknesses": [
+      "слабая аргументация сценариев",
+      "генерация в Midjourney — основной инструмент, а не референс"
+    ],
+    "criteria_evidence_labels": {
+      "experience": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "relevant_cases": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "explainability": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      }
+    }
+  },
+  "R09": {
+    "name": "Юлия Рахманова",
+    "age": 36,
+    "city": "Москва",
+    "primary_role": "V3",
+    "years_total": 0,
+    "years_total_evidence": "UX-кейсов нет.",
+    "relevant_cases": false,
+    "relevant_cases_evidence": "UX-кейсов нет.",
+    "figma": "partial",
+    "figma_evidence": "Figma освоила год назад.",
+    "design_system": null,
+    "responsive": null,
+    "work_format": "hybrid",
+    "work_format_evidence": "гибрид",
+    "salary_expectation": 200000,
+    "salary_expectation_evidence": "Ожидания: 200 тыс.",
+    "stop_notes": [
+      "graphic_design_only"
+    ],
+    "weaknesses": [
+      "10 лет опыта — бренд, презентации, наружка, иногда баннеры для сайта; UX-кейсов нет"
+    ],
+    "criteria_evidence_labels": {
+      "experience": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "relevant_cases": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "tools": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      }
+    }
+  },
+  "R10": {
+    "name": "Никита Фролов",
+    "age": 32,
+    "city": "Москва",
+    "primary_role": "V2",
+    "years_total": 4,
+    "years_total_evidence": "Fullstack / «человек-оркестр», 4 года в агентстве.",
+    "stack_python": true,
+    "stack_python_evidence": "Python (Django)",
+    "meta_forms_responsive": "partial",
+    "meta_forms_responsive_evidence": "Фронт «рабочий, не премиальный».",
+    "deploy": true,
+    "deploy_evidence": "Деплой на VPS.",
+    "llm_agents": true,
+    "llm_agents_evidence": "Много n8n и GPT-агентов для внутренних HR-воронки и квалификации лидов.",
+    "work_format": "hybrid",
+    "work_format_evidence": "гибрид",
+    "salary_expectation": 270000,
+    "salary_expectation_evidence": "Ожидания: 270 тыс.",
+    "stop_notes": [],
+    "weaknesses": [
+      "фронт «рабочий, не премиальный»",
+      "английский B1"
+    ],
+    "criteria_evidence_labels": {
+      "experience": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "stack": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "frontend_quality": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      },
+      "llm_agents": {
+        "verdict": "supports",
+        "reason": "цитата по существу подтверждает критерий"
+      }
+    }
+  }
+}
