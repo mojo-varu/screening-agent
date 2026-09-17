@@ -1,5 +1,7 @@
 # HR Candidate Screening Agent — "Akvatoriya"
 
+*Русская версия: [README.ru.md](README.ru.md)*
+
 ## What this project does
 
 A deterministic screening engine for three job openings (BA, Fullstack,
