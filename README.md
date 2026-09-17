@@ -1,4 +1,4 @@
-# HR Candidate Screening Agent
+# HR Candidate-Screening Agent
 
 *Русская версия: [README.ru.md](README.ru.md)*
 
