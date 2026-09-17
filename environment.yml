@@ -1,4 +1,4 @@
-# Conda-окружение для HR-агента «Акватория».
+# Conda-окружение для HR-агента отбора кандидатов.
 #
 # Сам движок (domain/, engine/, extractors/, validation/, report.py,
 # screen.py, extract.py, poc.py, eval_extraction.py) использует ТОЛЬКО

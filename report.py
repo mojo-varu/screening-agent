@@ -211,7 +211,7 @@ def write_artifact(candidate_id: str, artifact: dict, vacancy_title: str, out_di
 # ---------------------------------------------------------------------------
 
 def render_summary_markdown(rows: list) -> str:
-    lines = ["# Отчёт по отбору кандидатов — «Акватория»", "", "## Сводная таблица", "",
+    lines = ["# Отчёт по отбору кандидатов", "", "## Сводная таблица", "",
              "| ID | Вакансия | Решение | Причина |", "|---|---|---|---|"]
     for cid, vacancy_title, trace in rows:
         emoji = DECISION_EMOJI[trace.decision]
